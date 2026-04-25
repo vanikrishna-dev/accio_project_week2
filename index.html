@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="card">
+  <h2>Create Account</h2>
+
+  <div class="input-group">
+    <label>Email</label>
+    <div class="input-wrapper">
+      <input type="text" id="email" placeholder="example@email.com">
+      <span id="emailIcon"></span>
+    </div>
+    <small id="emailError"></small>
+  </div>
+
+  <div class="input-group">
+    <label>Password</label>
+    <div class="input-wrapper">
+      <input type="password" id="password" placeholder="Your password">
+      <span id="passwordIcon"></span>
+    </div>
+    <small id="passwordError"></small>
+  </div>
+
+  <p id="successMsg"></p>
+
+  <button id="submitBtn" disabled>Submit</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
