@@ -26,7 +26,7 @@ email.addEventListener("input", () => {
     email.classList.add("invalid");
     email.classList.remove("valid");
     emailError.textContent =
-      "Email must be >3 chars and include @ and .";
+      "Make sure email is more than 3 characters and has @ and a .";
     emailIcon.textContent = "❌";
     isEmailValid = false;
   }
@@ -47,7 +47,7 @@ password.addEventListener("input", () => {
     password.classList.add("invalid");
     password.classList.remove("valid");
     passwordError.textContent =
-      "Password must be more than 8 characters";
+      "Make sure password is more than 8 characters";
     passwordIcon.textContent = "❌";
     isPasswordValid = false;
   }
